@@ -41,5 +41,8 @@ if st.button("Generate Data"):
 
 st.subheader("Sample Real Data")
 
-df_real = pd.read_csv("processed_data.csv").sample(5)
-st.dataframe(df_real)
+try:
+    df_real = pd.read_csv("processed_data.csv").sample(5)
+    st.dataframe(df_real)
+except:
+    st.warning("Real dataset not available in deployed version.")
