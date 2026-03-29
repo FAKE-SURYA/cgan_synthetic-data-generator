@@ -3,3 +3,4 @@ torch
 pandas
 scikit-learn
 numpy
+streamlit-option-menu
