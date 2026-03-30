@@ -40,8 +40,8 @@ G = load_model()
 # HOME PAGE
 # ======================
 if selected == "Home":
-    st.title("💳 Fraud Detection using Synthetic Data (CGAN)")
-    st.caption("Final Year Project | Synthetic Data Generation for Fraud Detection")
+    st.title("💳 AI-based Fraud Detection using Synthetic Data (CGAN)")
+    st.caption("Synthetic Data Generation for Fraud Detection")
 
     col1, col2, col3 = st.columns(3)
 
@@ -51,6 +51,7 @@ if selected == "Home":
 
     st.markdown("---")
     st.subheader("Project Overview")
+    st.image("Figure_1.png")
 
     st.write("""
     This project uses Conditional GAN (CGAN) to generate synthetic financial transaction data.
@@ -75,7 +76,7 @@ elif selected == "Generate Data":
 
         st.success("Synthetic Data Generated Successfully!")
         st.dataframe(df)
-
+        
 # ======================
 # ANALYTICS PAGE
 # ======================
@@ -129,4 +130,4 @@ elif selected == "About":
 # FOOTER
 # ======================
 st.markdown("---")
-st.caption("Developed by Surya Pratap Singh | BTech Final Year Project")
+st.caption("Developed by Surya Pratap Singh")
