@@ -8,6 +8,8 @@ Synthetic data allows machine learning models to be trained without exposing rea
 
 ---
 
+## Live Demo :- https://cgansynthetic-data-generator-6byxvzuiph4ewfvodtc92i.streamlit.app/
+
 ## Problem Statement
 Fraud detection systems require large volumes of transaction data.  
 However, real financial datasets are:
