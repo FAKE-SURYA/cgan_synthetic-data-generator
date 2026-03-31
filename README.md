@@ -149,8 +149,8 @@ Potential improvements:
 ## 👨‍💻 Author
 
 **Surya Pratap Singh**
+
 - GitHub: [@FAKE-SURYA](https://github.com/FAKE-SURYA)
-- LinkedIn: [surya-pratap-singh-2a](https://www.linkedin.com/in/surya-pratap-singh-2a)
 
 ---
 
